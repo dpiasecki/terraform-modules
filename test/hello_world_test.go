@@ -37,6 +37,6 @@ func TestHelloWorld(t *testing.T) {
 	// Validate the provisioned application
 	http_helper.HttpGetWithCustomValidation(t, query, func(status int, content string) bool {
 		return status == 200 &&
-			strings.Contains(content, "Hello")
+			strings.Contains(content, "Welcome")
 	})
 }
