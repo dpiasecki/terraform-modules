@@ -1,5 +1,9 @@
 pool:
   name: Hosted Ubuntu 1604
+
+variables:
+- group: azure-credentials
+
 steps:
 - script: |
    apt-get update
