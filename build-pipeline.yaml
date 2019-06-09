@@ -1,8 +1,8 @@
-pool:
-  name: Hosted Ubuntu 1604
-
 variables:
 - group: azure-credentials
+
+pool:
+  name: Hosted Ubuntu 1604
 
 steps:
 - script: |
